@@ -40,15 +40,15 @@ npm run dev
 
 ### 1단계 - 성능 테스트
 1. 웹 성능예산은 어느정도가 적당하다고 생각하시나요
-```
 ![image](https://user-images.githubusercontent.com/6476469/161757733-21475074-65df-4d02-94d9-b802c5c50ab5.png)
 (네이버 지하철 녹양 -> 신도림 길찾기)
 
 ![image](https://user-images.githubusercontent.com/6476469/161765988-543783d8-a5a5-43a7-b13c-da06b6074dea.png)
 (Running map 경로검색 페이지)
-
+```
 FCP: 0.5초 이하
 네이버 수준을 목표
+```
 
 2. 웹 성능예산을 바탕으로 현재 지하철 노선도 서비스는 어떤 부분을 개선하면 좋을까요
 ```
@@ -61,9 +61,8 @@ DAU: 3,000,000 (1,000,000 * 3)
 평균 rps: 34.6
 최대 rps: 346
 T = 0.4 (2 * 0.2)
-
-
 ```
+
 4. Smoke, Load, Stress 테스트 스크립트와 결과를 공유해주세요
 
 ---
